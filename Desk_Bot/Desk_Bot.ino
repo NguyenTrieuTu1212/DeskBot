@@ -390,6 +390,15 @@ void handleRoot() {
             height: var(--h-beard);
             box-shadow: inset 0px var(--beard-shadow-y) 8px var(--c-beard-shadow);
         }
+        .happy-new-year {
+            color: gold; /* Change the text color to gold */
+            font-size: 36px; /* Increase the font size */
+            font-weight: bold; /* Set font weight to bold */
+            position: absolute;
+            bottom: 20px;
+            text-align: center; /* Center-align the text */
+            width: 100%; /* Make the text span the entire width */
+        }
       </style>
     </head>
     <body>
@@ -437,6 +446,7 @@ void handleRoot() {
 
             <div class="nose"></div>
         </div>
+        <div class="happy-new-year">Happy New Year TUONG LINH</div>
       </div>
     </body>
     </html>
